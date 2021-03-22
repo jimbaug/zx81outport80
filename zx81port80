@@ -1,0 +1,16 @@
+10 REM ..........
+
+POKE 16514, 62
+POKE 16515, 0
+POKE 16516. 211
+POKE 16517, 128
+POKE 16518, 201
+
+ld a, 0
+out 80h, 0
+ret
+
+To execute it:
+PRINT USR 16514
+
+
